@@ -1,0 +1,17 @@
+body{
+    background: #4472C4;
+}
+
+article {
+    background: #C00000;
+    margin: 30px 10%;
+    padding: 20px;
+    color: white;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+}
