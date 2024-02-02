@@ -1,5 +1,6 @@
-body{
+div.main{
     background: #4472C4;
+    padding: 30px;
 }
 
 article {
