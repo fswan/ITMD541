@@ -42,7 +42,8 @@
 
 #flex-section3 .box {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
 }
 
 #flex-section3 .tags ul {
@@ -73,6 +74,7 @@
 #grid-section2 .gridboxblue {
     grid-column: 2/4;
     grid-row: 1/4;
+    z-index: 1;
 }
 
 #grid-section2 .gridboxred {
