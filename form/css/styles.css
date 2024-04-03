@@ -8,7 +8,7 @@ label {
 
 .main {
     background-color: #bbbbbb;
-    width: 28rem;
+    width: 21rem;
     height: 20rem;
     padding: 10px 20px;
     margin: 1px auto;
@@ -22,7 +22,7 @@ label {
     text-align: center;
 }
 input{
-    width:15rem;
+    width:10rem;
     float: right;
     margin-left: 2rem;
     height: 1.5rem;

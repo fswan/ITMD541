@@ -15,8 +15,8 @@ window.onload = () => {
         }
         let tip = document.getElementById("tip").value;
         document.getElementById("tip_amount").value = tip;
-        document.getElementById("tip_percentage").value = Number(tip / total).toFixed(4)*100;
-        document.getElementById("bill").value = Number(tip) + Number(total);
+        document.getElementById("tip_percentage").value = Number(tip / total * 100).toFixed(2);
+        document.getElementById("bill").value = Number(Number(tip) + Number(total)).toFixed(2);
         lastValue = document.getElementById("total").value;
     }
 }
