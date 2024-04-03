@@ -14,9 +14,9 @@ window.onload = () => {
             return;
         }
         let tip = document.getElementById("tip").value;
-        document.getElementById("tip_amount").value = tip;
-        document.getElementById("tip_percentage").value = Number(tip / total * 100).toFixed(2);
-        document.getElementById("bill").value = Number(Number(tip) + Number(total)).toFixed(2);
+        document.getElementById("tip_percentage").value = tip;
+        document.getElementById("tip_amount").value = Number(total * tip / 100).toFixed(2);
+        document.getElementById("bill").value = Number(Number(document.getElementById("tip_amount").value) + Number(total)).toFixed(2);
         lastValue = document.getElementById("total").value;
     }
 }
